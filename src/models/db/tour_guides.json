@@ -9,7 +9,7 @@
     "mcc": "tour guide",
     "image": "./images/holly.png",
     "cost": 50,
-    "currency": "GBP",
+    "currency": "USD",
     "languages": ["English", "Japanese"],
     "expertise": ["1", "3", "4"] 
   },
@@ -23,7 +23,7 @@
     "mcc": "tour guide",
     "image": "./images/hayao.png",
     "cost": 45,
-    "currency": "GBP",
+    "currency": "USD",
     "languages": ["English", "Japanese"],
     "expertise": ["1", "2", "3", "4", "5"]
   },
@@ -36,7 +36,7 @@
     "mcc": "tour guide",
     "image": "./images/david.png",
     "cost": 40,
-    "currency": "GBP",
+    "currency": "USD",
     "languages": ["English", "Japanese", "German"],
     "expertise": ["2", "3", "4"]  
   },
@@ -49,7 +49,7 @@
     "mcc": "tour guide",
     "image": "./images/erika.png",
     "cost": 65,
-    "currency": "GBP",
+    "currency": "USD",
     "languages": ["English", "Japanese"],
     "expertise": ["1", "2", "5"]  
   }
