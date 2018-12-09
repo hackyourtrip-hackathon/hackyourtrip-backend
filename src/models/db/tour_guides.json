@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "card_network": "DCI",
+    "name": "Holly Ikeda",
+    "phone": "(305) 654-1234",
+    "city": "Seattle",
+    "zip_code": "98121",
+    "mcc": "tour guide",
+    "image": "./images/holly.png",
+    "cost": 50,
+    "currency": "USD",
+    "languages": ["English", "Japanese"],
+    "expertise": ["1", "3", "4"] 
+  },
+  {
+    "id": 2,
+    "card_network": "DCI",
+    "name": "Hayao Miyazaki",
+    "phone": "(414) 000-1234",
+    "city": "Las Vegas",
+    "zip_code": "89128",
+    "mcc": "tour guide",
+    "image": "./images/hayao.png",
+    "cost": 45,
+    "currency": "USD",
+    "languages": ["English", "Japanese"],
+    "expertise": ["1", "2", "3", "4", "5"]
+  },
+  {
+    "id": 3,
+    "card_network": "DCI",
+    "name": "David Yamamoto",
+    "phone": "(365) 084-1574",
+    "city": "Tokyo",
+    "mcc": "tour guide",
+    "image": "./images/david.png",
+    "cost": 40,
+    "currency": "USD",
+    "languages": ["English", "Japanese", "German"],
+    "expertise": ["2", "3", "4"]  
+  },
+  {
+    "id": 4,
+    "card_network": "DCI",
+    "name": "Erika Nakamura",
+    "phone": "(705) 000-4444",
+    "city": "Tokyo",
+    "mcc": "tour guide",
+    "image": "./images/erika.png",
+    "cost": 65,
+    "currency": "USD",
+    "languages": ["English", "Japanese"],
+    "expertise": ["1", "2", "5"]  
+  }
+
+]
