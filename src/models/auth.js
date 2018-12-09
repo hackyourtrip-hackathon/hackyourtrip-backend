@@ -7,7 +7,7 @@ async function getToken() {
     grant_type: 'client_credentials',
     client_id: 'l7xxbc96570ec3284e64a6378787668bc22f',
     client_secret: '1679a65c9fed4507a0e6b13e10ea8a27',
-    scope: 'DCI_CURRENCYCONVERSION'
+    scope: 'DCI_CURRENCYCONVERSION CITYGUIDES'
   })
    
   const auth = await getClientCredentials()
