@@ -11,7 +11,8 @@
     "cost": 50,
     "currency": "USD",
     "languages": ["English", "Japanese"],
-    "expertise": ["1", "3", "4"] 
+    "expertise": ["1", "3", "4"],
+    "short-bio": "Hello! I was born in Shiga next to Kyoto and now live in Seattle, with my family and two cats. My hobby is swimming, playing a piano and skiing. When l was a university student I went to US as a member of goodwill envoy and there I had got unforgettable experiences with local people. Helping my host mother get dressed in kimono was one of them. These experiences made me think to become a guide in the long run. I had got National Guide Certificate in 2014. Since then I always tried to make guests satisfied and hope they go back to their countries with good memories."
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "cost": 45,
     "currency": "USD",
     "languages": ["English", "Japanese"],
-    "expertise": ["1", "2", "3", "4", "5"]
+    "expertise": ["1", "2", "3", "4", "5"],
+    "short-bio": "Hello! My name is Hayao. I am an English tour guide. I've been living in Vegas for 8 years. Las Vegas may be Sin City but the stunning desert landscape that surrounds the city may be as close to heaven as you can get. I know the Nevada wilderness like the back of my hand and am eager to show you the gems hidden in this other-worldly landscape. I am looking forward to guiding you around Las Vegas!"
   },
   {
     "id": 3,
@@ -38,7 +40,8 @@
     "cost": 40,
     "currency": "USD",
     "languages": ["English", "Japanese", "German"],
-    "expertise": ["2", "3", "4"]  
+    "expertise": ["2", "3", "4"] ,
+    "short-bio": "I’m a full-time national licensed tour guide. I studied Japanese Art History when I was a student at Sophia University, Tokyo. One of my hobby is visiting art museums. I had experienced to work as a travel coordinator in one of the multinational companies for years. I am a member of Toastmasters International club where I practice public speaking twice a month. I have enjoyed conducting Tokyo private tours more than 60 times and received excellent reviews from them. I usually customize a tailor-made tour upon our customers’ requests. I can explain historical back grounds of Temples and Shrines, and the comparison of old things and modern things in Tokyo. I have been guiding major sightseeing spots, including Tsukiji Fish Market, Asakusa, Imperial Palace, Meiji Shrine, Shibuya, Shinjuku, etc. Everyone loves Tokyo. The people are polite, the food is incredible, the cultural heritage sites are stunning, the shopping is one of the best in the world. Let’s enjoy Tokyo together."
   },
   {
     "id": 4,
@@ -51,7 +54,8 @@
     "cost": 65,
     "currency": "USD",
     "languages": ["English", "Japanese"],
-    "expertise": ["1", "2", "5"]  
+    "expertise": ["1", "2", "5"],
+    "short-bio":  "Hello. Thank you for your interest in Japan. I am a tour guide living in central Tokyo area. I have visited more than thirty countries in the world. While I was in overseas countries, I encountered a lot of troubles. But many people at my travel destination kindly helped me and I enjoyed the sightseeing. To do something in return for their kindness, I became a tour guide. Not only standard popular tourism, but I create also customized tours to meet the requests from individual travelers. I experienced a tour guide for the people from various countries in the world. Tokyo would be one of the most exciting tourist spots due to its tradition and modernity. I would like to show you unique aspects of Japan. Please tell me what kind of sightseeing you would like to enjoy. Feel free to contact me."
   }
 
 ]
