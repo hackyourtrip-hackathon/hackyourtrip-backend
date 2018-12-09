@@ -1,5 +1,5 @@
 const { sync } = require('./sync')
-const { read, write } = sync('./data/data.json')
+const { read, write } = sync('./db/tour_guides.json')
 
 const get = (id) => {
   const errors = []
@@ -24,48 +24,41 @@ const getAll = (limit) => {
   return limit ? data.slice(0, limit) : data
 }
 
-const create = (body) => {
+const create = ({ name, phone, city, zip_code, mcc, image, cost, currency }) => {
   const errors = []
-  const { name, content } = body
   const data = read()
 
-  if (!name || !content) {
-    errors.push(`new entry must have a name and a content`)
+  if (!name && !phone && !city && !zip_code && !mcc && !image && !cost && !currency) {
+    errors.push(`must use name or content for editing`)
     return { errors }
   }
 
-  let entry = { id: `${shortid.generate()}`, name, content }
+  let entry = { id: `${shortid.generate()}`, name, phone, city, zip_code, mcc, image, cost, currency }
 
   data.push(entry)
   write(data)
   return entry
 }
 
-const edit = (id, body) => {
+const edit = (id, { name, phone, city, zip_code, mcc, image, cost, currency }) => {
   const errors = []
-  const { name, content } = body
   const data = read()
   const entry = data.find(e => e.id === id)
 
-  if (!name && !content) {
+  if (!name && !phone && !city && !zip_code && !mcc && !image && !cost && !currency) {
     errors.push(`must use name or content for editing`)
     return { errors }
   }
 
-  if (content && !name) {
-    entry.content = content
-    write(data)
-    return entry
-  }
-
-  if (name && !content) {
-    entry.name = name
-    write(data)
-    return entry
-  }
-
   entry.name = name
-  entry.content = content
+  entry.phone = phone
+  entry.city = city
+  entry.zip_code = zip_code
+  entry.mcc = mcc
+  entry.image = image
+  entry.cost = cost
+  entry.currency = currency
+
   write(data)
   return entry
 }

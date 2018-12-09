@@ -7,8 +7,8 @@ app.use(express.json())
 app.use(cors())
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'))
 
-const data = require('./routes/auth')
-app.use('/data', data)
+app.use('/data', require('./routes/index'))
+app.use('/token', require('./routes/auth'))
 
 app.use((req, res, next) => next({ status: 404, message: { error: 'Not found' } }))
 
