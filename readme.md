@@ -8,6 +8,10 @@ When you are travelling to a new place, what do you seek out? A unique, local ex
 * Guides who are knowledgable of Discover deals and promotions
 * Guides who speak mutiple languages
 
+### Walkthrough
+
+While we no longer have access to the APIs for our site to function, here is a walkthrough of the functioning site: https://www.youtube.com/watch?v=VK5ZMwd0UBk&feature=youtu.be
+
 ### Intructions
 
 To use this app:
