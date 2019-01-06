@@ -10,7 +10,7 @@ When you are travelling to a new place, what do you seek out? A unique, local ex
 
 ### Walkthrough
 
-While we no longer have access to the APIs for our site to function, here is a walkthrough of the functioning site: https://www.youtube.com/watch?v=VK5ZMwd0UBk&feature=youtu.be
+While we no longer have access to the APIs for our app to function, here is a walkthrough of the functioning app: https://www.youtube.com/watch?v=VK5ZMwd0UBk&feature=youtu.be
 
 ### Intructions
 
